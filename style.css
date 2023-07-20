@@ -1,0 +1,52 @@
+body{
+    font-family: Roboto; font-size: 28px;
+    background-color: teal;
+    color: white;
+}
+
+a{
+    color: rgb(0, 4, 252);
+    text-decoration: none;
+}
+
+.header-1{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    background-color: transparent;
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0;
+
+}
+
+main p{
+    background-color: transparent;
+    color:blue;
+    padding: 16px;
+    border-style: none;
+    border-width: 5px;
+    border-color: rgb(114, 68, 145);
+    border-radius: 16px;
+
+}
+
+.header-1 button{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+}
+
+footer{
+    font-size: large;
+    font-weight: lighter;
+    padding-top: 16px;
+}
